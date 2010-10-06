@@ -1,0 +1,30 @@
+NAME
+
+    Text::Phonetic::Soundex::Length - Soundex algorithm with more length
+
+SYNOPSIS
+
+	use Text::Phonetic::Soundex::Length;
+
+	my $phonetic = Text::Phonetic::Soundex::Length->new();
+	$encoded_string = $phonetic->encode($string);
+
+DESCRIPTION
+
+    The Soundex search algorithm is a phonetic algorithm.
+
+AUTHOR
+
+    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+
+COPYRIGHT
+
+	Text::Phonetic::Soundex::Length is Copyright (c) 2010 Stefan Gipper
+	All rights reserved.
+
+	This program is free software; you can redistribute
+	it and/or modify it under the same terms as Perl itself.
+
+SEE ALSO
+
+    perl(1), Text::Phonetic(3pm).
